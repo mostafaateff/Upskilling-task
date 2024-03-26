@@ -1,13 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background-color: #f5f5f5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-color {
+  background-color: rgba(109, 145, 238, 1);
+  border-radius: 40px;
+}
+
+/* ******************************* Home component style ****************************** */
+
+.home {
+  width: 1259px;
+  height: 840px;
+}
+
+.home-text {
+  position: absolute;
+  top: 10%;
+  left: 58%;
+}
+
+.main-text {
+  color: rgba(109, 145, 238, 1);
+  width: 449px;
+  height: 87px;
+}
+
+.trash-text {
+  width: 346px;
+  height: 87px;
+}
+
+.main-round {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 71.1px;
+}
+
+.main-trush {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 15px;
+  letter-spacing: 15px;
+}
+
+.ex-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.lorem span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 150;
+  font-size: 70px;
+  color: rgba(79, 79, 79, 1);
+  line-height: 60px;
+}
+
+.lorem p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  color: rgba(79, 79, 79, 1);
+  line-height: 60px;
+}
+
+.big-lorem p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  color: rgba(79, 79, 79, 1);
+}
+
+/* ******************************* end Home component style ****************************** */
+
+/* ******************************* About component style ****************************** */
+
+.ab-le {
+  position: relative;
+  top: -15%;
+  left: 12%;
+}
+
+.ab-le h1 {
+  width: 301px;
+  height: 90px;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 89.5px;
+}
+
+.ab-le p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about-dark h1 {
+  position: absolute;
+  top: 20%;
+  left: 63%;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 89.5px;
+}
+
+.about-lorem {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  width: 494px;
+  height: 288px;
+}
+
+/* ******************************* end About component style ****************************** */
+
+/* *******************************  Services component style ****************************** */
+
+.services-text {
+  width: 289px;
+  height: 90px;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 89.5px;
+  color: rgba(109, 145, 238, 1);
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lines {
+  position: relative;
+  right: 0%;
+  top: 13px;
+}
+
+.line-1 {
+  width: 45.25px;
+  border: 2px solid rgba(109, 145, 238, 1);
+  transform: rotate(135deg);
+}
+
+.line-2 {
+  width: 45.25px;
+  border: 2px solid rgba(109, 145, 238, 1);
+  transform: rotate(-135deg);
+}
+
+.bottom-lines {
+  position: relative;
+  top: -8px;
+  right: 0%;
+}
+
+.line-3 {
+  width: 45.25px;
+  border: 2px solid rgba(109, 145, 238, 1);
+  transform: rotate(-135deg);
+}
+
+.line-4 {
+  width: 45.25px;
+  border: 2px solid rgba(109, 145, 238, 1);
+  transform: rotate(135deg);
+}
+
+.ser-sm-lo {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+  color: rgba(50, 68, 115, 1);
+}
+
+.ser-lg-lo {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(50, 68, 115, 1);
+}
+
+.ser-image {
+  border-radius: 30px 30px 0px 0px;
+}
+
+.image-1,
+.image-2,
+.image-3 {
+  border-radius: 30px;
+}
+
+.ser-help p {
+  width: 98px;
+  height: 36px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+
+/* ******************************* end Services component style ****************************** */
+
+
+/* ******************************* Testymonials component style ****************************** */
+
+.testy-text p {
+  color: rgba(109, 145, 238, 1);
+  width: 464px;
+  height: 90px;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 89.5px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.testy-lines {
+  position: relative;
+  top: 10px;
+}
+
+.bottom-testy-lines {
+  position: relative;
+  bottom: -10px;
+}
+
+.item-head {
+  width: 147px;
+  height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(109, 145, 238, 1);
+}
+
+.item-content {
+  width: 423px;
+  height: 110px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(34, 54, 106, 1);
+}
+
+.testy-image {
+  position: relative;
+  top: -50px;
+  left: 7px;
+}
+
+
+/* ******************************* end Testymonials component style ****************************** */
+
+/* *******************************  Contact component style ****************************** */
+
+.contact-title {
+  position: relative;
+  top: 40px;
+}
+
+.contact-title p {
+  width: 370px;
+  height: 90px;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 89.5px;
+  color: rgba(109, 145, 238, 1);
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-lines {
+  position: relative;
+  top: 20px;
+}
+
+.bottom-contact-lines {
+  position: relative;
+  bottom: 10px;
+}
+
+.contact-form {
+  position: relative;
+  top: 80px;
+}
+
+.form-inputs input {
+  width: 374px;
+  height: 56px;
+  background-color: rgba(206, 220, 255, 1);
+  border: 1px solid rgba(206, 220, 255, 1);
+  border-radius: 61px;
+  margin: 5px 0px;
+  padding-left: 15px;
+}
+
+.form-inputs button {
+  width: 168px;
+  height: 56px;
+  border: 3px solid rgba(81, 128, 246, 1);
+  border-radius: 61px;
+  margin: 5px 0px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.data-email p,
+.data-phone p {
+  font-family: "Abel", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.form-data i {
+  color: rgba(81, 128, 246, 1);
+}
+
+.footer {
+  background-color: rgba(12, 30, 73, 1);
 }
